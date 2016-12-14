@@ -1,0 +1,80 @@
+.header {
+    background-color: Gold;
+    color: #000;
+    padding: 15px;
+}
+
+.footer {
+    background-color: Gold;
+    color: MidnightBlue;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.menu {
+    background-color: #eee;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: Orange;
+    color: #ffffff;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+.aside {
+    background-color: Tan;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+* {
+    font-family: lato;
+    box-sizing: border-box;
+    border-color: white;
+}
+
+
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*[class^="col-"] {*/
+    float: left;
+    padding: 15px;
+    border-color: white;
+}
+
+@media (max-width: 767px) {
+    [class^="col-"] {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    [class^="col-"] {
+        width: 100%;
+    }
+}
+
+@media (min-width: 980px) {
+    [class^="col-"] {
+        width: 100%;
+    }
+}
