@@ -1,37 +1,45 @@
 body {
     font-size: 30px;
+    font-family: sans-serif;
+    color: white;
 }
+
 @media (max-width: 767px) {
     body {
         transition: 1s;
-        background-color:red;
-        font-size: 10px;
+        background-color: #c90000;
+        font-size: 25px;
     }
 }
+
 @media (max-width: 480px) {
     body {
         transition: 1s;
-        background-color:lightblue;
+        background-color: #4290aa;
         font-size: 5px;
     }
 }
+
 @media (min-width: 768px) and (max-width: 979px) {
     body {
         transition: 1s;
-        background-color:lightgreen;
+        background-color: #63bc88;
+        font-size: 55px;
     }
 }
-@media (min-width: 980px) {
-   body {
-       transition: 1s;
-        background-color:orange;
-    }
-}
-@media (min-width: 1200px) {
 
+@media (min-width: 980px) {
     body {
         transition: 1s;
-        background-color:purple;
+        background-color: #ffc252;
+        font-size: 75px;
     }
 }
 
+@media (min-width: 1200px) {
+    body {
+        transition: 1s;
+        background-color: #f4c0ca;
+        font-size: 115px;
+    }
+}

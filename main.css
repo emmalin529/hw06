@@ -10,8 +10,7 @@
     height: 100px;
     background: red;
     position: absolute;
-    animation: 4s running-box infinite cubic-bezier(.31,.79,0,.8);
-    
+    animation: 4s running-box infinite cubic-bezier(.31, .79, 0, .8);
 }
 
 @keyframes running-box {
