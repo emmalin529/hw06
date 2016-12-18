@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>hw07-1</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h2>註冊表單</h2>
+  <br>
+  
+  <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLSc32-qv2-Ej1AXF3pPDVA1tXBcoit0z6U3VHGWM15VLommyxw/formResponse">
+    <div class="form-group">
+      <label>姓名</label>
+      <input type="text" class="form-control" placeholder="Your Name" value="username">
+    </div>
+    <br>
+    <div class="form-group">
+      <label>性別</label>
+      <div>
+        <label class="radio-inline">
+    <input type="radio" name="gender" value="male">男
+    </label>
+    <label class="radio-inline">
+    <input type="radio" name="gender" value="female">女
+    </label>
+    <label class="radio-inline">
+    <input type="radio" name="gender" value="other">其他
+    </label>
+      </div>
+    </div>
+    <div class="form-group">
+      <br>
+      <label>電子郵件</label>
+      <input type="email" class="form-control" placeholder="Your Email">
+    </div>
+    <div class="form-group">
+      <br>
+      <label>密碼</label>
+      <input type="password" class="form-control"  placeholder="Password">
+    </div>
+    <div class="form-group">
+      <br>
+      <label>興趣</label>
+      <div>
+        <label class="checkbox-inline">
+    <input type="checkbox" name="intersting" >閱讀
+    </label>
+    <label class="checkbox-inline">
+    <input type="checkbox" name="intersting" >運動
+    </label>
+    <label class="checkbox-inline">
+    <input type="checkbox" name="intersting"> 睡覺
+    </label>
+    <label class="checkbox-inline">
+    <input type="checkbox" name="intersting" >學網頁
+    </label>
+      </div>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-success btn-xs">送出</button>
+  </form>
+</div>
+
+</body>
+</html>
