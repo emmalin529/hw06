@@ -1,0 +1,22 @@
+body{
+    background: #343e46;
+}
+.hint{
+  border: 1px solid #a9bac6;
+  width: 120px;
+  padding: 10px;
+  background: #a9bac6;
+  color: white;
+  border-radius: 7px;
+  position:absolute;
+  left: 100%;
+  top:0;
+  display: none;
+    text-align: center;
+}
+.playground{
+  width: 150px;
+  margin: 20vh auto 0;
+  /* border: 1px solid gray; */
+  position:relative;
+}

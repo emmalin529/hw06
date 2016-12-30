@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+    color:white;
+    text-align: center;
+}
+table{
+    background: #909090;
+    width: 400px;
+}
+tr{
+    background: #909090;
+    height: 35px;
+}
+.down{
+    background: #bababa;
+}
